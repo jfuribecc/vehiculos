@@ -10,8 +10,13 @@ public class Main {
 	Aviones Airbus = new Aviones();
 	Airbus.Alas();
 
-
 	
+	Carro carro = new Carro();
+	carro.rellenar();
+
+	Helicopteros apache = new Helicopteros();
+	apache.Rotores();
+
 
 	}
 }

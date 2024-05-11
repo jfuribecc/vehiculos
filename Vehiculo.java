@@ -1,8 +1,8 @@
 public class Vehiculo{
 
 	double speed;
-	int Pasajeros;
-	double Carga;
+	int pasajeros;
+	double carga;
 
 
 	void go() {

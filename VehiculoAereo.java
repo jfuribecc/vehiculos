@@ -1,8 +1,8 @@
 public class VehiculoAereo extends Motorizado{
 
-	int NumeroHelices;
+	int numerohelices;
 
-	public void Aire() {
+	public void aire() {
 		System.out.println("el vehiculo se mueve por Aire");
 	}
 

@@ -1,15 +1,17 @@
 public class Main {
 	public static void main(String[] arg) {
 		
-	Vehiculo Sedan= new Vehiculo();
-	Sedan.go();
+	Vehiculo sedan= new Vehiculo();
+	sedan.go();
 
-	VehiculoTerrestre Chevrolet = new VehiculoTerrestre();
-	Chevrolet.Tierra(); 
+	VehiculoTerrestre chevrolet = new VehiculoTerrestre();
+	chevrolet.Tierra(); 
 
-	Aviones Airbus = new Aviones();
-	Airbus.Alas();
+	Aviones airbus = new Aviones();
+	airbus.alas();
 
+	Aviones focker = new Aviones();
+	airbus.xd();
 	
 	Carro carro = new Carro();
 	carro.rellenar();
@@ -17,6 +19,8 @@ public class Main {
 	Helicopteros apache = new Helicopteros();
 	apache.Rotores();
 
+	
+	
 
 	}
 }

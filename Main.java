@@ -11,7 +11,7 @@ public class Main {
 	airbus.alas();
 
 	Aviones focker = new Aviones();
-	airbus.xd();
+	focker.xd();
 	
 	Carro carro = new Carro();
 	carro.rellenar();
